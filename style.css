@@ -1,0 +1,119 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1, h2 { margin-bottom: 20px; color: #333; }
+
+label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: 600;
+    color: #444;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    background: #667eea;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover { background: #5568d3; }
+
+.error {
+    background: #fee;
+    color: #c33;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border-left: 4px solid #c33;
+}
+
+.sukses {
+    background: #efe;
+    color: #3c3;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border-left: 4px solid #3c3;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+    margin-top: 12px;
+}
+
+p { margin-top: 20px; text-align: center; color: #666; font-size: 14px; }
+a { color: #667eea; text-decoration: none; font-weight: 600; }
+a:hover { text-decoration: underline; }
+
+.btn-logout {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #c33;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.btn-logout:hover { background: #a22; text-decoration: none; }
+
+.btn-edit {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 12px 24px;
+    background: #667eea;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.btn-edit:hover { background: #5568d3; text-decoration: none; }

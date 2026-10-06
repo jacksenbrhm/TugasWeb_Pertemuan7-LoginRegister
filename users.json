@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "nama": "Samuel Jacksen Brahmana",
+        "email": "samueljacksen63@gmail.com",
+        "password": "$2y$10$lHSbvLqL921aWzUqJrfSUOBn2E121Ssb0wkJC7fwBSOcYA84JEuuC",
+        "created_at": "2026-10-06 20:40:51",
+        "remember_token": "ce41baa65addb723272383e2c156e0c612d079d016832827599be52dc3cd6131"
+    }
+]
